@@ -26,7 +26,7 @@
   - Redis Client Library:
      Hiredis (https://github.com/redis/hiredis)
 
-# Why HT/SQL ?
+# Why HT/SQL ? 
 
     - Specially Tailored for CRUD Application
     - Native SQL support
