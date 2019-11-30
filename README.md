@@ -1,13 +1,13 @@
-# htsql
-* What is HT/SQL ?
+
+# What is HT/SQL ?
  
    HT/SQL is a new Software Language (actually it is a Domain-specific language) especially designed for creating/developing state of the art web based Business applications. It has been under development at the moment but ready to be evaluated by the developers.
 
-* Who is developer ?
+# Who is developer ?
 
    Me.
 
-* Development Technologies ?
+# Development Technologies ?
 
   C Language with libraries listed below:
   --------
@@ -26,7 +26,7 @@
   - Redis Client Library:
      Hiredis (https://github.com/redis/hiredis)
 
-* Why HT/SQL ?
+# Why HT/SQL ?
 
     - Specially Tailored for CRUD Application
     - Native SQL support
@@ -43,6 +43,6 @@
     - Built-in AJAX and Mobile support
     - Fast
     
-- How does it works ?
+# How does it works ?
 
    HT/SQL is a Native ISAPI extension with 5 DLL (dynamic linked library) files. Whenever a *.frmx file request (with frmx extension) has been made to the IIS (Internet Information Server), IIS loads and delivers that request to the HT/SQL ISAPI extension.
