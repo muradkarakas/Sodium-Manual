@@ -9,7 +9,7 @@
 
 # Development Technologies ?
 
-  C Language abd Other libraries listed below:
+  C Language and Other libraries listed below:
   --------
   - Parser  :
      The Lemon LALR(1) Parser Generator (https://www.sqlite.org/lemon.html)
