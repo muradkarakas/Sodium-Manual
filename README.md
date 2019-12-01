@@ -46,3 +46,7 @@
 # How does it works ?
 
    HT/SQL is a Native ISAPI extension with 5 DLL (dynamic linked library) files. Whenever a *.frmx file request (with frmx extension) has been made to the IIS (Internet Information Server), IIS loads and delivers that request to the HT/SQL ISAPI extension.
+   
+# Documentation
+
+ https://muradkarakas.github.io/HTSQL/
