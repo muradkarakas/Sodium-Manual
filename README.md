@@ -37,7 +37,7 @@
   * Easy to learn 
   * Native In-Memory database support
   * Easy to maintain
-    All requirements are handled in a standard way so developers easily find the code blocks to make corrections.
+     All requirements are handled in a standard way so developers easily find the code blocks to make corrections.
   * Quick and Easy Installation: No database repository needed, No ODBC or OLE DB installation/configuration needed.
   * Basic HTML knowledge for visual design
   * Built-in AJAX and Mobile support
