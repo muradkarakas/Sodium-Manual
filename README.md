@@ -48,4 +48,4 @@
    
 # Documentation
 
- https://muradkarakas.github.io/HTSQL/
+ https://muradkarakas.github.io/Sodium-Manual/
