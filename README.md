@@ -42,13 +42,16 @@
   * Built-in AJAX and Mobile support
   * Fast
     
-# How does it works ?
+# How does it works ?:
 
-   Sodium is a Native ISAPI extension with 5 DLL (dynamic linked library) files. Whenever a *.frmx file request (with frmx extension) has been made to the IIS (Internet Information Server), IIS loads and delivers that request to the Sodium ISAPI 
-
-# Roadmap: 
-  Planning to run Sodium as a standalone web server. That is there will be no dependency to IIS. 
+  Sodium is a Native ISAPI extension with 5 DLL (dynamic linked library) files. Whenever a *.frmx file request (with frmx extension) has been made to the IIS (Internet Information Server), IIS loads and delivers that request to the Sodium ISAPI 
   
-# Documentation
+# Roadmap: 
+
+  * Planning to run Sodium as a standalone web server. That is there will be no dependency to IIS. 
+  * Adding Https support
+  * Adding Server Sent Events (SSEs) support
+
+# Documentation:
 
  https://muradkarakas.github.io/Sodium-Manual/
