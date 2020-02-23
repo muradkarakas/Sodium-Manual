@@ -29,9 +29,9 @@
 # Why Sodium ? 
 
   * Specially Tailored for CRUD Application
-  * Native SQL support
+  * Native SQL support: 
     You can write SQL command/scripts in code behind file as native language commands (Transact-SQL for MS SQL Server, PL/SQL for Oracle)
-  * Server and Client Side support
+  * Server and Client Side support: 
     Current web based languages/frameworks are designed to run either on server or client. Sodium is designed to run on both. All things are handled Sodium engine transparently.
   *  No dependency
   * Easy to learn 
