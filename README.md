@@ -66,7 +66,7 @@
   
 # Roadmap: 
 
-  * Planning to run Sodium as a standalone web server. That is there will be no dependency to IIS. 
+  * MySql support
   * Adding Https support
   * Adding Server Sent Events (SSEs) support
 
