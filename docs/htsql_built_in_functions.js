@@ -1,5 +1,13 @@
 var htsql_built_in_functions =
 [
+    [ "Example:", "howto_get_selected_tree_node_id.html#autotoc_md42", null ],
+    [ "Prerequisites:", "installation_on_windows_systems.html#autotoc_md54", null ],
+    [ "Sodium Installation Steps (<a href=\"http://www.dataforms.io/htsql_manual/videos/htsql_installation.mp4\">Installation Video Guide</a>):", "installation_on_windows_systems.html#autotoc_md55", null ],
+    [ "Sodium Uninstallation Steps:", "uninstallation_from_windows.html#autotoc_md73", [
+      [ "Database Related Functions:", "htsql_built_in_functions.html#autotoc_md44", null ],
+      [ "REDIS Functions:", "htsql_built_in_functions.html#autotoc_md45", null ],
+      [ "Other Functions:", "htsql_built_in_functions.html#autotoc_md46", null ]
+    ] ],
     [ "commit", "function_commit.html", null ],
     [ "rollback", "function_rollback.html", null ],
     [ "delete", "function_delete.html", null ],
@@ -8,6 +16,7 @@ var htsql_built_in_functions =
     [ "get_database_name", "function_get_database_name.html", null ],
     [ "get_database_type", "function_get_database_type.html", null ],
     [ "run_sql_file", "function_run_sql_file.html", null ],
+    [ "set_active_database_connection", "function_set_active_database_connection.html", null ],
     [ "create_redis_connection", "create_redis_connection.html", null ],
     [ "close_redis_connection", "close_redis_connection.html", null ],
     [ "(redis-variable-name).set", "redis_set.html", null ],
