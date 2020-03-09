@@ -45,16 +45,16 @@
 # Components:
   
   Sodium is a Native Windows Application having these components;
-  * SodiumServer.exe:
+  * SodiumServer.exe: <br>
     Generic Native Http Server
     
-  * SodiumDebugger.exe:
+  * SodiumDebugger.exe: <br>
     Native GNU Debugger (GDB)
     
-  * DBInt.dll, DBInt-Oracle.dll and DBInt-Postgresql.dll:
+  * DBInt.dll, DBInt-Oracle.dll and DBInt-Postgresql.dll: <br>
     Sodium-To-Database interface & implementation files
   
-  * SodiumExtension.dll:
+  * SodiumExtension.dll: <br>
     Sodium language Http Server plug-in
     
 # How does it works ?:
