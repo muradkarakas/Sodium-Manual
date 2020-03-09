@@ -41,10 +41,25 @@
   * Basic HTML knowledge for visual design
   * Built-in AJAX and Mobile support
   * Fast
+  
+# Components:
+  
+  Sodium is a Native Windows Application having these components;
+  * SodiumServer.exe:
+    Generic Native Http Server
+    
+  * SodiumDebugger.exe:
+    Native GNU Debugger (GDB)
+    
+  * DBInt.dll, DBInt-Oracle.dll and DBInt-Postgresql.dll:
+    Sodium-To-Database interface & implementation files
+  
+  * SodiumExtension.dll:
+    Sodium language Http Server plug-in
     
 # How does it works ?:
 
-  Sodium is a Native ISAPI extension with 5 DLL (dynamic linked library) files. Whenever a *.frmx file request (with frmx extension) has been made to the IIS (Internet Information Server), IIS loads and delivers that request to the Sodium ISAPI 
+  Whenever a *.frmx file request (with frmx extension) has been made to the Generic Native Http Server (SodiumServer.exe), It delivers that request to the Sodium Server plug-in (SodiumExtension.dll). Sodium plug-in process the request and response accordingly. 
   
 # Roadmap: 
 
