@@ -49,10 +49,13 @@
     Generic Native Http Server
     
   * SodiumDebugger.exe: <br>
-    Native GNU Debugger (GDB)
+    Native GNU Compliant Debugger (GDB) 
     
-  * DBInt.dll, DBInt-Oracle.dll and DBInt-Postgresql.dll: <br>
-    Sodium-To-Database interface & implementation files
+  * DBInt.dll: <br>
+    Sodium-To-RDBMS interface
+
+  * DBInt-Oracle.dll and DBInt-Postgresql.dll: <br>
+    RDBMS implementation files for different database vendors
   
   * SodiumExtension.dll: <br>
     Sodium language Http Server plug-in
