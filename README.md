@@ -1,7 +1,7 @@
 
-# What is HT/SQL ?
+# What is Sodium ?
  
-   HT/SQL is a new Software Language (actually it is a Domain-specific language) especially designed for creating/developing state of the art web based Business applications. It has been under development at the moment but ready to be evaluated by the developers.
+   Sodium is a new Software Language (actually it is a Domain-specific language) especially designed for creating/developing state of the art web based Business applications. It has been under development at the moment but ready to be evaluated by the developers.
 
 # Who is developer ?
 
@@ -26,13 +26,13 @@
   - Redis Client Library:
      Hiredis (https://github.com/redis/hiredis)
 
-# Why HT/SQL ? 
+# Why Sodium ? 
 
   * Specially Tailored for CRUD Application
-  * Native SQL support
+  * Native SQL support: 
     You can write SQL command/scripts in code behind file as native language commands (Transact-SQL for MS SQL Server, PL/SQL for Oracle)
-  * Server and Client Side support
-    Current web based languages/frameworks are designed to run either on server or client. HT/SQL is designed to run on both. All things are handled HT/SQL engine transparently.
+  * Server and Client Side support: 
+    Current web based languages/frameworks are designed to run either on server or client. Sodium is designed to run on both. All things are handled Sodium engine transparently.
   *  No dependency
   * Easy to learn 
   * Native In-Memory database support
@@ -42,10 +42,16 @@
   * Built-in AJAX and Mobile support
   * Fast
     
-# How does it works ?
+# How does it works ?:
 
-   HT/SQL is a Native ISAPI extension with 5 DLL (dynamic linked library) files. Whenever a *.frmx file request (with frmx extension) has been made to the IIS (Internet Information Server), IIS loads and delivers that request to the HT/SQL ISAPI extension.
-   
-# Documentation
+  Sodium is a Native ISAPI extension with 5 DLL (dynamic linked library) files. Whenever a *.frmx file request (with frmx extension) has been made to the IIS (Internet Information Server), IIS loads and delivers that request to the Sodium ISAPI 
+  
+# Roadmap: 
 
- https://muradkarakas.github.io/HTSQL/
+  * Planning to run Sodium as a standalone web server. That is there will be no dependency to IIS. 
+  * Adding Https support
+  * Adding Server Sent Events (SSEs) support
+
+# Documentation:
+
+ https://muradkarakas.github.io/Sodium-Manual/
