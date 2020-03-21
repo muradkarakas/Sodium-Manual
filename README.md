@@ -1,4 +1,4 @@
----
+﻿---
 description: Türkiye'nin İlk Programlama Dili
 ---
 
@@ -8,7 +8,7 @@ description: Türkiye'nin İlk Programlama Dili
 
 Frontend developer, C developer, database developer etc. are needed. 
 
-If you want be contributer, please [About Me](about-me.md).
+If you want be a contributer, please contact. ([About Me](about-me.md)).
 
 |  **Supported  Browsers** |  |  Supported  Databases \(RDBMS\) |  |  Supported  In-Memory Databases |  |  Supported  Operation Systems |
 | :---: | :--- | :---: | :--- | :---: | :--- | :---: |
