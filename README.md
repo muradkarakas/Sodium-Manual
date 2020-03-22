@@ -1,5 +1,5 @@
 ---
-description: Türkiye'nin İlk Programlama Dili
+description: Türkiye'nin Programlama Dili
 ---
 
 # Sodium Home Page
