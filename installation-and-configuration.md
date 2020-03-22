@@ -1,6 +1,6 @@
 # Installation & Configuration
 
-## Notes
+## Installation Notes
 
 Since latest version of PostgreSQL does not support OID \(Object ID\), current version of Sodium does not support PostgreSql. However, previous versions of PostgreSql database are still supported. Adding support to latest version is in my Todo list.
 
