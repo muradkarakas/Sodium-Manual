@@ -1,5 +1,9 @@
 # Installation & Configuration
 
+## Notes
+
+Since PostgreSQL latest version does not support OID \(Object ID\), current version of Sodium does not support PostgreSql. However, previous versions of PostgreSql database are supported. Adding support to latest version is in my Todo list.
+
 ## Installation Steps
 
 ### 1. Download and Install "_Microsoft visual c++ 2015 redistributable package \(x64\)_"
@@ -38,29 +42,11 @@ LinkedIn Profile Page: [http://tr.linkedin.com/in/muradkarakas](http://tr.linked
 
 {% embed url="https://github.com/muradkarakas/Sodium-Setup" %}
 
-Youtube playlist for installation \(3 videos\)
+Youtube playlist for installation \(2 videos\)
 
 {% embed url="https://www.youtube.com/playlist?list=PLMDu6aYdBVG3LmDAnX1FDYFyS9F3qkeEV" %}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Prerequisites
+## Prerequisites & Troubleshooting
 
 <table>
   <thead>
@@ -80,6 +66,7 @@ Youtube playlist for installation \(3 videos\)
       <td style="text-align:left">
         <p>Windows Server 2012 64Bit</p>
         <p>Windows 10 64Bit</p>
+        <p>Windows 7 Professional 64Bit</p>
       </td>
     </tr>
     <tr>
@@ -91,8 +78,8 @@ Youtube playlist for installation \(3 videos\)
         </p>
       </td>
       <td style="text-align:left">
-        <p>Oracle Database 11g Express Edition 64 Bit</p>
-        <p>PostgreSQL-10.0-2 64 Bit</p>
+        <p>Oracle Database 18.4 Express Edition 64 Bit</p>
+        <p>PostgreSQL-12.2.1</p>
       </td>
     </tr>
     <tr>
