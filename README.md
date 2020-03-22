@@ -12,7 +12,7 @@ If you want be a contributer, please contact. \([About Me](about-me.md)\).
 
 | **Supported  Browsers** |  | Supported  Databases \(RDBMS\) |  | Supported  In-Memory Databases |  | Supported  Operation Systems |
 | :---: | :--- | :---: | :--- | :---: | :--- | :---: |
-| ![](.gitbook/assets/supported_softwares_chrome.png) ![](.gitbook/assets/supported_softwares_safari.png) ![](.gitbook/assets/supported_softwares_firefox.png) ![](.gitbook/assets/supported_softwares_opera.png) ![](.gitbook/assets/supported_softwares_puffin.png) ![](.gitbook/assets/supported_softwares_internet_explorer.png) |  | ![](.gitbook/assets/supported_databases_oracle.png) ![](.gitbook/assets/supported_databases_postgresql.png) |  | ![](.gitbook/assets/supported_softwares_redis.png) |  | ![](.gitbook/assets/supported_softwares_windows.png) |
+| ![](.gitbook/assets/supported_softwares_chrome.png =50x50) ![](.gitbook/assets/supported_softwares_safari.png) ![](.gitbook/assets/supported_softwares_firefox.png) ![](.gitbook/assets/supported_softwares_opera.png) ![](.gitbook/assets/supported_softwares_puffin.png) ![](.gitbook/assets/supported_softwares_internet_explorer.png) |  | ![](.gitbook/assets/supported_databases_oracle.png) ![](.gitbook/assets/supported_databases_postgresql.png) |  | ![](.gitbook/assets/supported_softwares_redis.png) |  | ![](.gitbook/assets/supported_softwares_windows.png) |
 
 
 
