@@ -1,14 +1,9 @@
 # Table of contents
 
 * [Sodium Home Page](README.md)
-* [Introduction](introduction/README.md)
-  * [What is Sodium ?](introduction/what-is-sodium.md)
-  * [Getting Started](introduction/getting-started/README.md)
-    * [Hello World Example](introduction/getting-started/hello-world-example.md)
-    * [Datalist & Select Element Usage](introduction/getting-started/datalist-and-select-element-usage.md)
-  * [Why Sodium?](introduction/why-sodium.md)
-  * [Components](introduction/components.md)
-  * [How does Sodium works ?](introduction/how-does-sodium-works.md)
+* [Examples](examples/README.md)
+  * [Hello World Example](examples/hello-world-example.md)
+  * [Datalist & Select Element Usage](examples/datalist-and-select-element-usage.md)
 * [Installation & Configuration](installation-and-configuration.md)
 * [Frequently Asked Questions](frequently-asked-questions.md)
 * [How to](how-to/README.md)
