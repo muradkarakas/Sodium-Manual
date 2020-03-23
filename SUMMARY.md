@@ -1,9 +1,10 @@
 # Table of contents
 
 * [Sodium Home Page](README.md)
-* [Examples](examples/README.md)
-  * [Hello World Example](examples/hello-world-example.md)
-  * [Datalist & Select Element Usage](examples/datalist-and-select-element-usage.md)
+* [Getting Started](getting-started/README.md)
+  * [Examples](getting-started/examples/README.md)
+    * [Hello World Example](getting-started/examples/hello-world-example.md)
+    * [Datalist & Select Element Usage](getting-started/examples/datalist-and-select-element-usage.md)
 * [Installation & Configuration](installation-and-configuration.md)
 * [Frequently Asked Questions](frequently-asked-questions.md)
 * [How to](how-to/README.md)
