@@ -10,7 +10,7 @@ Sodium is a new Domain-Specific Language \(DSL\) especially designed for creatin
 
 Frontend developer, C developer, database developer etc. are needed. If you want be a contributer, please contact. \([About Me](about-me.md)\).
 
-## Whay is the Motivation To Develop a New Software Language ?
+## What is the Motivation To Develop a New Software Language ?
 
 * **Specially tailored for web based CRUD application development** Current software development languages \(php, asp, jsp, asp.net, etc\) and frameworks \(JSF, AngularJS, ExtJs\) are not solely designed for CRUD application. They are general-purpose development tools.  If you ;
   * need to develop just a web based CRUD application \(not device driver, game, etc, a dll or exe\),
