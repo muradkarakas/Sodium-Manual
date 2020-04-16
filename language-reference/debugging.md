@@ -1,14 +1,60 @@
 # Debugging
 
-Sodium has a native Debugger, **SodiumDebugger.exe**. It is a GNU Compliant Debugger \(GDB\). Any application compatible with GNU Compliant Debugger can be used as IDE.
+Sodium comes with
 
-`Code:Blocks IDE` is one of them.
+* A native 64bit Windows Debugger application, **SodiumDebugger.exe \(SD\)**
+* VS Code Debug Adaptor Protocol implementation.
 
-Code:Blocks is a `"The open source, cross platform, free C, C++ and Fortran IDE"`.
+ If you are a Sodium developer and want to debug your Sodium application, follow the steps below:
 
-Code:Blocks web page is [http://www.codeblocks.org/](http://www.codeblocks.org/)
+* Download and Install Visul Studio Code from [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
+* Run Visual Studio Code as administrator
+* Find and click "Run \ Install Additional Debugger" menu item
 
-Code:Blocks download page is [http://www.codeblocks.org/downloads](http://www.codeblocks.org/downloads)
+![](../.gitbook/assets/step-1.png)
+
+* Click "..." button to open pull-down menu and click "Install from VSIX..." item
+
+![](../.gitbook/assets/step-2.png)
+
+* Find and click "sodium-debug-x.x.x.vsix" file and click "Install" button
+
+![](../.gitbook/assets/step-3.png)
+
+* After installation, you will see the screen below;
+
+![](../.gitbook/assets/step-4.png)
+
+Now, Sodium applications can be debugged using Visual Stuido Code editor. In order to check if debugging is working properly, follow the steps below;
+
+* Run **StartSodiumServer.bat** file as administrator
+* Wait for internet browser to open and then find the "Session Id: XXXXX" section at the bottom of the page and copy the session id.
+
+![](../.gitbook/assets/step-5.png)
+
+* Switch to Visual Stuido Code and then click "File \ Open Workspace" menu item
+* Find "Sodium-Site" folder in Sodium installation folder and choose "Sodium.code-workspace" file and click "Open" button.
+
+![](../.gitbook/assets/step-6.png)
+
+* Find and open the "welcome.sql" file 
+
+![](../.gitbook/assets/step-7.png)
+
+* Press F5 button.
+* Paste "session id" into the input box and press "enter" key as shown below;
+
+![](../.gitbook/assets/step-8.png)
+
+* SodiumDebugger will be activated 
+
+![](../.gitbook/assets/step-9.png)
+
+* Find `cb_oracle.logon2oracle()` function in the welcome.sql file and put a breakpoint on any line in that function.
+
+
+
+
 
 
 
