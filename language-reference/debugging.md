@@ -51,8 +51,23 @@ Now, Sodium applications can be debugged using Visual Stuido Code editor. In ord
 ![](../.gitbook/assets/step-9.png)
 
 * Find `cb_oracle.logon2oracle()` function in the welcome.sql file and put a breakpoint on any line in that function.
+* Refresh internet browser page. A new line will be appeared at the bottom of the page as shown below;
 
+![](../.gitbook/assets/step-10.png)
 
+Click the "Login to Oracle" button. Procession "welcome.sqlx" file will be stopped and vs code will show "Watch", "Variables" and "Call Stacks" panels.
+
+![](../.gitbook/assets/step-11.png)
+
+* You press
+  * F10 for Step-Over
+  * F11 for Step-In
+  * Shift-F11 for Step-Out
+  * F5 for Continue
+
+{% hint style="info" %}
+Watch panel is not supported at the moment. You can see all variables and their values in "Variables" panel. Variables are shown in three categories: Locals, Function Parameters and Globals.
+{% endhint %}
 
 
 
