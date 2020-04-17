@@ -162,5 +162,9 @@
   * [Connection Types](language-reference/connection/connection-types/README.md)
     * [Database Connections](language-reference/connection/connection-types/database-connections.md)
     * [REDIS Connection](language-reference/connection/connection-types/redis-connection.md)
-* [Debugging](language-reference/debugging.md)
+
+## Development
+
+* [IDE](development/ide.md)
+* [Debugging](development/debugging.md)
 
