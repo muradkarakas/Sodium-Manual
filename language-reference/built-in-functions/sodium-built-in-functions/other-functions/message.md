@@ -1,6 +1,6 @@
 # message
 
- `message` function has 1 variant:
+ `message` function has 2 variants:
 
 {% tabs %}
 {% tab title="Variant 1" %}

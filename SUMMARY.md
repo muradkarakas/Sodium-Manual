@@ -18,6 +18,13 @@
 * [Roadmap](roadmap.md)
 * [About Me](about-me.md)
 
+## Version History
+
+* [Known Issues](version-history/known-issues.md)
+* [Resolved Issues](version-history/resolved-issues.md)
+* [New Major Features](version-history/new-major-features.md)
+* [Things To Do](version-history/things-to-do.md)
+
 ## LANGUAGE REFERENCE
 
 * [Program Structure](language-reference/program-structure/README.md)
