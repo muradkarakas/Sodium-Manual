@@ -41,16 +41,16 @@ Now, Sodium applications can be debugged using Visual Stuido Code editor. Follow
 
 ![](../.gitbook/assets/step-6.png)
 
+* Find and open "launch.json" file. Replace "Session Id" value with the correct value.
+* "sdPath" must have the correct path for SodiumDebugger.exe. \(Put double \ character between folder names\)
+
+![](../.gitbook/assets/image.png)
+
 * Find and open the "welcome.sqlx" file in VS Code
 
 ![](../.gitbook/assets/step-7.png)
 
-* Press F5 button.
-* Paste "session id" into the input box and press "enter" key as shown below;
-
-![](../.gitbook/assets/step-8.png)
-
-* SodiumDebugger will be activated 
+* Press F5 button. SodiumDebugger will be activated and VS Code will show debug view. 
 
 ![](../.gitbook/assets/step-9.png)
 
@@ -69,9 +69,9 @@ Click "Login to Oracle" button \(you do not need to have Oracle Database at this
   * Shift-F11 for Step-Out
   * F5 for Continue
 
-{% hint style="info" %}
-Watch panel is not supported at the moment. You can see all variables and their values in "Variables" panel. Variables are shown in three categories: Locals, Function Parameters and Globals.
-{% endhint %}
+## Video Guide
+
+{% embed url="https://www.youtube.com/watch?v=is5o-LWgx0o" caption="Sodium Debugging" %}
 
 
 
