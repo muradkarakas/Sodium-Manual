@@ -42,7 +42,7 @@ Now, Sodium applications can be debugged using Visual Stuido Code editor. Follow
 ![](../.gitbook/assets/step-6.png)
 
 * Find and open "launch.json" file. Replace "Session Id" value with the correct value.
-* "sdPath" must have the correct path for SodiumDebugger.exe. \(Put double \ character between folder names\)
+* "sdPath" value must be the full path of the "SodiumDebugger.exe". \(Put double \ character between folder names\)
 
 ![](../.gitbook/assets/image.png)
 
