@@ -7,19 +7,23 @@ Create a new sub folder named `helloworld` under the `Sodium-Site\apps` folder o
 ```text
 <!DOCTYPE html>
   
- <html>
-         <head>
-                 <title>Hello World</title>
-         </head>
+<html>
+    <head>
+        <title>Hello World</title>
+
+    </head>
   
-         <body>
+    <body>
+        
+        <br />
+        <br />
+
+        <controlblock control-block-name="cbDemo">
+            <input name="say" type="button" value="Say Hello World" style="display: block; margin-left: auto; margin-right: auto; width: 150px;"/>
+        </controlblock>
   
-                 <controlblock control-block-name="cbDemo">
-                         <input name="say" type="button" value="Say Hello World" />
-                 </controlblock>
-  
-         </body>
- </html>
+    </body>
+</html>
 ```
 
  **Form File Explanation:**

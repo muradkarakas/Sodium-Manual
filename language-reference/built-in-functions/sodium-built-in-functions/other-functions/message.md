@@ -44,7 +44,7 @@ void message(char messageTitle, char messageText, char messageType);
 
 `char messageText`
 
-`char messageType` Possible values are `error`, `info`, `success`
+`char messageType` Possible values are `notice`,`error`, `info`, `success`
 
 #### Return Value <a id="return-value"></a>
 
