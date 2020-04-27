@@ -70,7 +70,7 @@ void cbDemo.say_something() {
 
 ## **Output**
 
-**I**n order to open page, write the form file path into the address bar of the Internet browser\([http://localhost:8089/Sodium-Site/welcome.frmx](http://localhost:8089/Sodium-Site/welcome.frmx)\). After each file request, "Page loaded" will be shown. After click on "Say Hello World" button, "Hello World" message will be shown on four times with different style.
+**I**n order to open page, write the form file path into the address bar of the Internet browser \([http://localhost:8089/Sodium-Site/apps/helloworld/helloworld.frmx](http://localhost:8089/Sodium-Site/apps/helloworld/helloworld.frmx)\). After each file request, "Page loaded" will be shown. After click on "Say Hello World" button, "Hello World" message will be shown on four times with different style.
 
 ![](../../.gitbook/assets/helloworld1.png)
 
