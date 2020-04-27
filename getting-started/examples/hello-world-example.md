@@ -2,7 +2,7 @@
 
 ## Step 1: Folder Creation
 
-Create a new sub folder named `helloworld` under the `Sodium-Site\apps` folder of the installation path.
+Create a new sub folder named `HelloWorld` under the `Sodium-Site\apps` folder of the installation path.
 
 ## Step 2: Control File
 
@@ -10,7 +10,7 @@ Create a new sub folder named `helloworld` under the `Sodium-Site\apps` folder o
 
 ## Step 3: Form File
 
-**Form File:** Create a file named `helloWorld.frmx` and copy/paste the code block showed below into the file.
+**Form File:** Create a file named `HelloWorld.frmx` and copy/paste the code block showed below into the file.
 
 ```text
 <!DOCTYPE html>
@@ -44,7 +44,7 @@ Create a new sub folder named `helloworld` under the `Sodium-Site\apps` folder o
 
 ## **Step 4: Code Behind File**
 
-**Code behind File:** Create a file named `helloWorld.sqlx` and copy/paste the code block showed below into the file.
+**Code behind File:** Create a file named `HelloWorld.sqlx` and copy/paste the code block showed below into the file.
 
 ```text
 void page.load() {
@@ -70,7 +70,7 @@ void cbDemo.say_something() {
 
 ## **Output**
 
-**I**n order to open page, write the form file path into the address bar of the Internet browser. After each file request, "Page loaded" will be shown. After click on "Say Hello World" button, "Hello World" message will be shown on four times with different style.
+**I**n order to open page, write the form file path into the address bar of the Internet browser\([http://localhost:8089/Sodium-Site/welcome.frmx](http://localhost:8089/Sodium-Site/welcome.frmx)\). After each file request, "Page loaded" will be shown. After click on "Say Hello World" button, "Hello World" message will be shown on four times with different style.
 
 ![](../../.gitbook/assets/helloworld1.png)
 
