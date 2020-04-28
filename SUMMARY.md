@@ -20,10 +20,9 @@
 
 ## Version History
 
-* [Known Issues](version-history/known-issues.md)
-* [Resolved Issues](version-history/resolved-issues.md)
-* [New Major Features](version-history/new-major-features.md)
+* [Change Log](version-history/change-log.md)
 * [Things To Do](version-history/things-to-do.md)
+* [Known Issues](version-history/known-issues.md)
 
 ## LANGUAGE REFERENCE
 
