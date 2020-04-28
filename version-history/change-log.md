@@ -4,32 +4,8 @@ description: Be sure to not miss out on new features and improvements!
 
 # Change Log
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Date</th>
-      <th style="text-align:left">Features Added</th>
-      <th style="text-align:left">Category</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">2020-04-20</td>
-      <td style="text-align:left">While parsing string literals in sqlx files, &lt; and &gt; characters
-        are not put into string. Lexer fixed.</td>
-      <td style="text-align:left">Bug fix</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">2020-04-23</td>
-      <td style="text-align:left">
-        <p></p>
-        <ul>
-          <li>From now on, <a href="https://sciactive.com/pnotify/">pNotify</a> is used
-            as client library for <a href="../language-reference/built-in-functions/sodium-built-in-functions/other-functions/message.md">message </a>function.
-            An also, a new variant has been added to <a href="../language-reference/built-in-functions/sodium-built-in-functions/other-functions/message.md">message </a>function.</li>
-        </ul>
-      </td>
-      <td style="text-align:left">Improvment</td>
-    </tr>
-  </tbody>
-</table>
+| Date | Version | Features Added | Category |
+| :---: | :---: | :--- | :---: |
+| 2020-04-20 | 0.0.2 | While parsing string literals in sqlx files, &lt; and &gt; characters are not put into string. Lexer fixed.  | Bug fix |
+| 2020-04-23 | 0.0.1 | From now on, [pNotify](https://sciactive.com/pnotify/) is used as client library for [message ](../language-reference/built-in-functions/sodium-built-in-functions/other-functions/message.md)function. An also, a new variant has been added to [message ](../language-reference/built-in-functions/sodium-built-in-functions/other-functions/message.md)function. | Improvment |
+
