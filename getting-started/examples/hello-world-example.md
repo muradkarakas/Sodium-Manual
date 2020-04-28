@@ -74,3 +74,9 @@ void cbDemo.say_something() {
 
 ![](../../.gitbook/assets/helloworld1.png)
 
+## Video
+
+{% embed url="https://www.youtube.com/watch?v=o7C7TPGT-JM" %}
+
+
+
