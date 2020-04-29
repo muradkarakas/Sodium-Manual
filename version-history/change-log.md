@@ -4,7 +4,13 @@ description: Be sure to not miss out on new features and improvements!
 
 # Change Log
 
-## 2020-04-20 \(Version 0.0.2\)
+## 2020-04-29 \(Version 0.0.3\)
+
+### Improvements
+
+\`\`[`key-column-name`](../language-reference/tags/data-block/#key-column-name-property)property added to the [data block tag](../language-reference/tags/data-block/)
+
+## 2020-04-28 \(Version 0.0.2\)
 
 ### Bug fixes
 
