@@ -25,6 +25,7 @@ the data in tables/views.
     data-block-name     = ""
     data-source-name    = ""
     data-schema-name    = ""
+    key-column-name     = ""
     connection-name     = ""
     auto-generated-columns="*|comma separated column names"
     where-clause        = ""
