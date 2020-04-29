@@ -14,7 +14,7 @@ description: Be sure to not miss out on new features and improvements!
 
 ### Bug fixes
 
-While parsing string literals in sqlx files, &lt; and &gt; characters are not put into string. Sqlx file lexer fixed.
+While parsing string literals in sqlx files, &lt; and &gt; characters are not copied into string. Sqlx file lexer fixed.
 
 ## 2020-04-23 \(Version 0.0.1\)
 
