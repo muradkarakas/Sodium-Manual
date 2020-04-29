@@ -93,6 +93,20 @@ the data in tables/views.
 **Default Value:** -  
 **Predefined Values Allowed:** -
 
+### key-column-name property
+
+#### Description
+
+Hold the table/view key column name. 
+
+If not set, database default key column name is assigned if exists \(for oracle, default value is "rowid"\)
+
+**Mandatory :** no  
+**Unique :** no  
+**Data Type :** char  
+**Default Value:** For oracle, default value is "rowid"  
+**Predefined Values Allowed:** -
+
 ### data-source-name property
 
 #### Description
