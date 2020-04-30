@@ -4,6 +4,12 @@ description: Be sure to not miss out on new features and improvements!
 
 # Change Log
 
+## 2020-04-30 \(Version 0.0.4\)
+
+### Bug fixes
+
+* There was a problem in calculating page Expire date & time. It is fixed.
+
 ## 2020-04-29 \(Version 0.0.3\)
 
 ### Improvements
