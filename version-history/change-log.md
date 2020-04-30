@@ -8,7 +8,7 @@ description: Be sure to not miss out on new features and improvements!
 
 ### Bug fixes
 
-* Calculation of the web page Expire date & time was wrong. It is fixed.
+* Page expire time calculation was wrong. It is fixed.
 * Postgresql Demo was not working due to database row identifying strategy. It is replaced with new one \(see Improvements for deail\).
 
 ### Improvements
