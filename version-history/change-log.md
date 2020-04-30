@@ -10,6 +10,10 @@ description: Be sure to not miss out on new features and improvements!
 
 * There was a problem in calculating page Expire date & time. It is fixed.
 
+### Improvements
+
+* Demo database objects are created in SODIUM\_DEMO user in Oracle Container database \(with using "alter session set "\_ORACLE\_SCRIPT"=true;" command\). After this modification, demo database user names for both Oracle and Postgresql are same. 
+
 ## 2020-04-29 \(Version 0.0.3\)
 
 ### Improvements
