@@ -8,11 +8,18 @@ description: Be sure to not miss out on new features and improvements!
 
 ### Bug fixes
 
-* There was a problem in calculating page Expire date & time. It is fixed.
+* Calculation of the web page Expire date & time was wrong. It is fixed.
+* Postgresql Demo was not working due to database row identifying strategy. It is replaced with new one \(see Improvements for deail\).
 
 ### Improvements
 
 * Demo database objects are created in SODIUM\_DEMO user in Oracle Container database \(with using "alter session set "\_ORACLE\_SCRIPT"=true;" command\). After this modification, demo database user names for both Oracle and Postgresql are same. 
+* Pseudo columns 
+
+  * `oid` in Postgresql database
+  * `rowid` in Oracle database
+
+  are not used anymore. Developer must set [key-column-name](../language-reference/tags/data-block/#key-column-name-property) property if he/she want to have a writable datablock.
 
 ## 2020-04-29 \(Version 0.0.3\)
 
