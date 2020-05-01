@@ -4,6 +4,13 @@ description: Be sure to not miss out on new features and improvements!
 
 # Change Log
 
+## 2020-04-30 \(Version 0.0.5\)
+
+### Bug fixes
+
+* Table/view primary key column name is automatically populated from database schema dictionary if not provided by developer.
+* For the data blocks whose [auto-generated-columns](../language-reference/tags/data-block/#auto-generated-columns-property) property is set to TRUE, table/view primary key column name is automatically populated from database schema dictionary.
+
 ## 2020-04-30 \(Version 0.0.4\)
 
 ### Bug fixes
