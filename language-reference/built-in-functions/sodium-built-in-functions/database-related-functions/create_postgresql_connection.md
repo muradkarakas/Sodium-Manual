@@ -18,10 +18,10 @@ char create_postgresql_connection(char connectionName, char instanceName, char u
 
 #### Parameters <a id="parameters"></a>
 
-* `char connectionName` Name for this Connection in Sodium application
+* `char connectionName` - unique name to identify this connection in web session
 * `char instanceName` Database instance name
-* `char userName` Database login user name
-* `char userPassword` Database login password
+* `char userName` - database login user name
+* `char userPassword` database login password
 
 #### Return Value <a id="return-value"></a>
 

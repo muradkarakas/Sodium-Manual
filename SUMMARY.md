@@ -38,6 +38,7 @@
       * [delete](language-reference/built-in-functions/sodium-built-in-functions/database-related-functions/delete.md)
       * [create\_postgresql\_connection](language-reference/built-in-functions/sodium-built-in-functions/database-related-functions/create_postgresql_connection.md)
       * [create\_oracle\_connection](language-reference/built-in-functions/sodium-built-in-functions/database-related-functions/create_oracle_connection.md)
+      * [create\_mysql\_connection](language-reference/built-in-functions/sodium-built-in-functions/database-related-functions/create_mysql_connection.md)
       * [get\_database\_type](language-reference/built-in-functions/sodium-built-in-functions/database-related-functions/get_database_type.md)
       * [get\_database\_name](language-reference/built-in-functions/sodium-built-in-functions/database-related-functions/get_database_name.md)
       * [run\_sql\_file](language-reference/built-in-functions/sodium-built-in-functions/database-related-functions/run_sql_file.md)
