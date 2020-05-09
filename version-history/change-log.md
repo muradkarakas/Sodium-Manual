@@ -4,6 +4,16 @@ description: Be sure to not miss out on new features and improvements!
 
 # Change Log
 
+## 2020-05-10 \(Version 0.0.6\) <a id="2020-05-01-version-0-0-5"></a>
+
+### Improvements
+
+* Mysql Support added
+
+### Bug fixes
+
+* Reading/Writing blob \(image file\) to/from database is adapted to Http Server API. \(Currently tested on Oracle\)
+
 ## 2020-05-01 \(Version 0.0.5\)
 
 ### Improvements
