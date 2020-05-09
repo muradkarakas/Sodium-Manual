@@ -54,5 +54,5 @@ While parsing string literals in sqlx files, &lt; and &gt; characters are not co
 
 ### Improvements
 
-From now on, pNotify is used as client library for message function. An also, a new variant has been added to message function.
+From now on, pNotify is used as client library for [`message` ](../language-reference/built-in-functions/sodium-built-in-functions/other-functions/message.md)function. An also, a new variant has been added.
 
