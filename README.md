@@ -76,7 +76,7 @@ void button_clicked() {
 * **Built-in mobile support**
 * **Fast** Sodium is especially designed for fast response time. Therefore,
   * it is developed using C language as a native Executable application.
-  * Sodium does not use ODBC, OLE DB or other third party frameworks. It makes OCI calls for Oracle and libpq calls for Postgresql in order to fast access.
+  * Sodium does not use ODBC, OLE DB or other third party frameworks. It makes **`oci.dll`** calls for Oracle, **`libpq.dll`** calls for Postgresql and **`libmysql.dll`** for MySql in order to fast access.
 * **Web based**
 * **Safe**
 * **Absolutely free**
@@ -89,25 +89,37 @@ void button_clicked() {
 
 * **SodiumServer.exe:** 
 
-  Http Server
+  64bit Http Server
 
 * **SodiumDebugger.exe:** 
 
-  GNU Compliant Debugger \(GDB\)
+  64bit Windows Native Debugger especially designed for Sodium
 
 * **DBInt.dll:** 
 
-  Sodium-To-RDBMS interface
+  Sodium-To-RDBMS generic interface
 
-* **DBInt-Oracle.dll and DBInt-Postgresql.dll:** 
+  * **DBInt-Oracle.dll**
 
-  RDBMS implementation files for different database vendors
+    DBInt implementation for Oracle
 
-* **SodiumExtension.dll:** 
+  * **DBInt-Postgresql.dll**
+
+    DBInt implementation for PostgreSql
+
+  * **DBInt-MySql.dll:** 
+
+    DBInt implementation for MySql
+
+* **SodiumExtension.dll:**
 
   Sodium language Http Server plug-in
 
-Whenever a \*.frmx file request \(with frmx extension\) has been made to the Generic Native Http Server \(SodiumServer.exe\), It delivers that request to the Sodium Server plug-in \(SodiumExtension.dll\). Sodium plug-in process the request and response accordingly.
+* **SodiumShared.dll:**
+
+  Shared code repository for all modules listed above
+
+Whenever a \*.frmx file request \(with frmx extension\) has been made to the Http Server \(SodiumServer.exe\), It delivers that request to the Sodium Server plug-in \(SodiumExtension.dll\). Sodium plug-in process the request and response accordingly.
 
 ![](.gitbook/assets/sodium-architecture.png)
 
