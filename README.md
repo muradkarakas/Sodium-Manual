@@ -4,7 +4,7 @@ description: Türkiye'nin Programlama Dili
 
 # Sodium Home Page
 
-## What is Soduim?
+## What is Soduim? 
 
 Sodium is a new Domain-Specific Language \(DSL\) especially designed for creating/developing state of the art web based business applications. It has been under development at the moment but ready to be evaluated by developers.
 
