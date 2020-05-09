@@ -121,7 +121,7 @@ void button_clicked() {
 
 Whenever a \*.frmx file request \(with frmx extension\) has been made to the Http Server \(SodiumServer.exe\), It delivers that request to the Sodium Server plug-in \(SodiumExtension.dll\). Sodium plug-in process the request and response accordingly.
 
-![](.gitbook/assets/sodium-architecture.png)
+![](.gitbook/assets/sodium-architecture%20%281%29.png)
 
 | **Supported  Browsers** |  | Supported  Databases \(RDBMS\) |  | Supported  In-Memory Databases |  | Supported  Operation Systems |
 | :---: | :--- | :---: | :--- | :---: | :--- | :---: |
