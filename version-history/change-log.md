@@ -8,7 +8,7 @@ description: Be sure to not miss out on new features and improvements!
 
 ### Improvements
 
-* Mysql Support added
+* Mysql Support added \([create\_mysql\_connection](../language-reference/built-in-functions/sodium-built-in-functions/database-related-functions/create_mysql_connection.md)\)
 
 ### Bug fixes
 
