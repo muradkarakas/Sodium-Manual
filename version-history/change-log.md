@@ -4,11 +4,14 @@ description: Be sure to not miss out on new features and improvements!
 
 # Change Log
 
-## 2020-06-XX \(Version 0.0.7\)
+## 2020-06-12 \(Version 0.0.7\)
 
 ### Bug fixes
 
-* If [`page.access`](../language-reference/built-in-triggers/page.access-trigger.md) trigger returned `false`, http response was not generated correctly. \(Migration from IIS to Standalone HTTP Server is not complete. This is the main reason behind the error\)
+* If [`page.access`](../language-reference/built-in-triggers/page.access-trigger.md) trigger returns `false`, http response was not generated correctly. \(Migration from IIS to Standalone HTTP Server is not complete\)
+* Some C functions related to blob column type on MySql database are modified/fixed.
+* Some memory areas allocated for Page Object and its properties was not released properly.
+* [MySql demo database creation script file](https://github.com/muradkarakas/Sodium-Setup/blob/master/Sodium-Site/mysql_demo_installation.sql) fixed.
 
 ## 2020-05-10 \(Version 0.0.6\) <a id="2020-05-01-version-0-0-5"></a>
 
