@@ -4,7 +4,7 @@ description: Be sure to not miss out on new features and improvements!
 
 # Change Log
 
-## 2020-06-12 \(Version 0.0.7\)
+## 2020-05-12 \(Version 0.0.7\)
 
 ### Bug fixes
 
