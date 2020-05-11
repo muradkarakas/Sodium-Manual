@@ -8,8 +8,8 @@ description: Be sure to not miss out on new features and improvements!
 
 ### Bug fixes
 
-* If [`page.access`](../language-reference/built-in-triggers/page.access-trigger.md) trigger returns `false`, http response was not generated correctly. \(Migration from IIS to Standalone HTTP Server is not complete\)
-* Some C functions related to blob column type on MySql database are modified/fixed.
+* In case[`page.access`](../language-reference/built-in-triggers/page.access-trigger.md) trigger returns `false`, http response was not generated correctly. 
+* Some C functions related to blob column type operations for MySql database are modified/fixed.
 * Some memory areas allocated for Page Object and its properties was not released properly.
 * [MySql demo database creation script file](https://github.com/muradkarakas/Sodium-Setup/blob/master/Sodium-Site/mysql_demo_installation.sql) fixed.
 
@@ -21,7 +21,7 @@ description: Be sure to not miss out on new features and improvements!
 
 ### Bug fixes
 
-* Reading/Writing blob \(image file\) to/from database is adapted to Http Server API. \(Currently tested on Oracle\)
+* C functions related to reading/writing blob data to/from database is not working with Http Server API. Migration from Microstf Internet Information Server to Http Server API is not complete.
 
 ## 2020-05-01 \(Version 0.0.5\)
 
@@ -51,7 +51,7 @@ description: Be sure to not miss out on new features and improvements!
 
 ### Improvements
 
-\`\`[`key-column-name`](../language-reference/tags/data-block/#key-column-name-property)property added to the [data block tag](../language-reference/tags/data-block/)
+\`\`[`key-column-name`](../language-reference/tags/data-block/#key-column-name-property)property added to the [data block tag](../language-reference/tags/data-block/).
 
 ## 2020-04-28 \(Version 0.0.2\)
 
@@ -63,5 +63,5 @@ While parsing string literals in sqlx files, &lt; and &gt; characters are not co
 
 ### Improvements
 
-From now on, pNotify is used as client library for [`message` ](../language-reference/built-in-functions/sodium-built-in-functions/other-functions/message.md)function. An also, a new variant has been added.
+From now on, pNotify is used as client library for [`message` ](../language-reference/built-in-functions/sodium-built-in-functions/other-functions/message.md)function. And also, a new variant has been added to message function.
 
