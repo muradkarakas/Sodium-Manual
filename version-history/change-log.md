@@ -4,6 +4,14 @@ description: Be sure to not miss out on new features and improvements!
 
 # Change Log
 
+## 2020-05-XX \(Version 0.0.8\) - Not Released Yet
+
+### Bug fixes
+
+* A serious bug detected in `DBInt-PostgreSql.dll` file. Memory locations holding sql command parameter values were overwritten by random values. \(Postgresql library requires a dynamically sized pointer array to another pointer which holds actual paramater values of SQL statement. \(More detail: `paramValues` parameter of the [PQexecParams](https://www.postgresql.org/docs/current/libpq-exec.html) function\) 
+
+
+
 ## 2020-05-12 \(Version 0.0.7\)
 
 ### Bug fixes
