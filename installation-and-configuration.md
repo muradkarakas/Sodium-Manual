@@ -2,11 +2,11 @@
 
 ## Installation Notes
 
-Since latest version of PostgreSQL does not support OID \(Object ID\), current version of Sodium does not support PostgreSql. However, previous versions of PostgreSql database are still supported. Adding support to latest version is in my Todo list.
+---
 
 ## Installation Steps
 
-### 1. Download and Install "_Microsoft visual c++ 2015 redistributable package \(x64\)_"
+### 1. Download and Install "_Microsoft Visual C++ 2015 Redistributable Package \(x64\)_" if not already installed. If you have already, skip this step.
 
 Sodium is developed with C language. This package is needed to run C application.
 
@@ -14,23 +14,7 @@ Sodium is developed with C language. This package is needed to run C application
 
 {% embed url="https://www.microsoft.com/en-us/download/details.aspx?id=48145" %}
 
-### 2. Download and Install "_Oracle Express Windows 64 Bit Edition_"
-
-Sodium needs Oracle _**native client library**_ to access Oracle database instance.
-
-{% embed url="https://www.youtube.com/watch?v=CrTo\_XoDQwI" %}
-
-{% embed url="https://www.oracle.com/database/technologies/xe-downloads.html" %}
-
-### 3. Download and Install "_PostgreSQL Database Windows 64 Bi_t"
-
-Sodium needs PostgreSQL _**native client library**_ to access PostgreSQL database instance.
-
-{% embed url="https://www.youtube.com/watch?v=e1MwsT5FJRQ" %}
-
-{% embed url="https://www.enterprisedb.com/downloads/postgres-postgresql-downloads" %}
-
-### 4. Download Sodium package
+### 2.  Download Sodium package
 
 Download package is nightly built versions of Sodium. Do not try it on live/production database and web servers.
 
@@ -74,12 +58,14 @@ Youtube playlist for installation \(2 videos\)
       <td style="text-align:left">
         <p>Oracle</p>
         <p>PostgreSQL</p>
+        <p>MySql</p>
         <p><b>(See Note No.1)</b>
         </p>
       </td>
       <td style="text-align:left">
         <p>Oracle Database 18.4 Express Edition 64 Bit</p>
         <p>PostgreSQL-12.2.1</p>
+        <p>MySql</p>
       </td>
     </tr>
     <tr>
@@ -102,8 +88,18 @@ Youtube playlist for installation \(2 videos\)
     </tr>
   </tbody>
 </table>{% hint style="info" %}
-1.  **For ORACLE:**  Check the path of the "oci.dll" file is exists in the system environment variable `PATH`. If not, please add.  Setting character encoding to UTF8 on the web server is required for Oracle. Otherwise, characters read from database cannot be seen as expected on the client browser. Please set character encoding part of the NLS\_LANG value to UTF8 on web server. \(Ex: TURKISH\_TURKEY.UTF8\).  **For POSTGRESQL:**  Check the path of the "libpq.dll" file is exists in the system environment variable `PATH`. If not, please add. For PostgreSQL database, Tables must be created "with OID" option. Otherwise, data blocks will be read only..
+1.  **For ORACLE:**  
+   Check the path of the "oci.dll" file is exists in the system environment variable `PATH`. If not, please add.  
+   Setting character encoding to UTF8 on the web server is required for Oracle. Otherwise, characters read from database cannot be seen as expected on the client browser. Please set character encoding part of the NLS\_LANG value to UTF8 on web server. \(Ex: TURKISH\_TURKEY.UTF8\).  
+   **For POSTGRESQL:**  
+   Check the path of the "libpq.dll" file is exists in the system environment variable `PATH`. If not, please add. 
+
+   **For MySql:**
+
+   Check the path of the "libmysql.dll" file is exists in the system environment variable `PATH`. If not, please add.
+
 2. Do not use space character in installation path. Use only ANSI characters in installation path.
-3. Add sodium installation path to the "Path" system environtment variable
 {% endhint %}
+
+
 
