@@ -30,6 +30,8 @@ Youtube playlist for installation \(2 videos\)
 
 {% embed url="https://www.youtube.com/playlist?list=PLMDu6aYdBVG3LmDAnX1FDYFyS9F3qkeEV" %}
 
+### 3. [If you are a developer, follow the instruction on Development page](development/ide.md)
+
 ## Prerequisites & Troubleshooting
 
 <table>
