@@ -32,7 +32,7 @@ Youtube playlist for installation \(2 videos\)
 
 ### 3. [If you are a developer, follow the instruction on Development page](development/ide.md)
 
-## Prerequisites & Troubleshooting
+## Prerequisites
 
 <table>
   <thead>
@@ -103,5 +103,15 @@ Youtube playlist for installation \(2 videos\)
 2. Do not use space character in installation path. Use only ANSI characters in installation path.
 {% endhint %}
 
+## Troubleshooting
 
+#### If SodiumServer.exe stop running, it may print out one of the well-known exit codes listed below;
+
+* **Exit code 101:** `SodiumShared.dll` nor found.
+
+  **Solution:** add `SodiumShared.dll` file path to environment path.
+
+* **Exit code 102:** function is not found in `SodiumShared.dll`
+
+  **Solution:** add `SodiumShared.dll` file path to environment path.
 
