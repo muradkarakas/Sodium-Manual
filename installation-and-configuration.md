@@ -93,7 +93,7 @@ Youtube playlist for installation \(2 videos\)
 1. **For ORACLE:**  
    Check the path of the "oci.dll" file is exists in the system environment variable `PATH`. If not, please add.  
    Setting character encoding to UTF8 on the web server is required for Oracle. Otherwise, characters read from database cannot be seen as expected on the client browser. Please set character encoding part of the NLS\_LANG value to UTF8 on web server. \(Ex: TURKISH\_TURKEY.UTF8\).  
-   **For POSTGRESQL:**  
+    **For POSTGRESQL:**  
    Check the path of the "libpq.dll" file is exists in the system environment variable `PATH`. If not, please add. 
 
    **For MySql:**
@@ -111,7 +111,9 @@ Youtube playlist for installation \(2 videos\)
 
 ![](.gitbook/assets/image%20%283%29.png)
 
-#### If you get `"HttpAddUrl failed with 183"` message after you run `SodiumServer.exe`, this means the port number Sodium uses is already in use by another application or another copy of SodiumServer.exe. You can edit and modify the content of "StartSodiumServer.bat" file to change Sodium port number. 
+#### If you need to change port number, open "StartSodiumServer.bat" file, find the `http://*:8089/` text and modify the number.
+
+#### If you get `"HttpAddUrl failed with 183"` message after you run `SodiumServer.exe`, this means the port number Sodium uses is already in use by another application or another copy of SodiumServer.exe. You can modify the content of "StartSodiumServer.bat" file to change Sodium port number. 
 
 ![](.gitbook/assets/image%20%282%29.png)
 
