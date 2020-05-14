@@ -100,6 +100,8 @@ Youtube playlist for installation \(2 videos\)
 
    Check the path of the "libmysql.dll" file is exists in the system environment variable `PATH`. If not, please add.
 
+   Check the "bin" folder in the MySql installation directory is exists in the system environment variable `PATH`. If not, please add.
+
 2. Do not use space character in installation path. Use only ANSI characters in installation path.
 {% endhint %}
 
