@@ -115,3 +115,7 @@ Youtube playlist for installation \(2 videos\)
 
   **Solution:** add `SodiumShared.dll` file path to environment path.
 
+* **Exit code 103:** MySql C client library couldn't initialized. May be `libmysql.dll` is not found.
+
+  **Solution:** add `libmysql.dll` file path to environment path.
+
