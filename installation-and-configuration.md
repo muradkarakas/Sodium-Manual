@@ -107,17 +107,17 @@ Youtube playlist for installation \(2 videos\)
 
 ## Troubleshooting
 
-#### If you see that dialog window when you start `SodiumServer.exe`, click "Yes" since Sodium requires Administrator privilege.
+#### If you see that dialog window below when you start `SodiumServer.exe`, click "Yes" since Sodium requires Administrator privilege.
 
 ![](.gitbook/assets/image%20%283%29.png)
 
-#### If you need to change port number, open "StartSodiumServer.bat" file, find the `http://*:8089/` text and modify the number.
+#### If you need to change port number, find and open "StartSodiumServer.bat" file, find the `http://*:8089/` text and modify the number.
 
 #### If you get `"HttpAddUrl failed with 183"` message after you run `SodiumServer.exe`, this means the port number Sodium uses is already in use by another application or another copy of SodiumServer.exe. You can modify the content of "StartSodiumServer.bat" file to change Sodium port number. 
 
 ![](.gitbook/assets/image%20%282%29.png)
 
-#### If you get "SodiiumServer.exe &lt;Url1&gt; \[Url2\] ..." message after you run SodiumServer.exe, this means that you do not provide required command line parameters. Please have a look at the original "StartSodiumServer.bat" file content to learn usage of SodiumServer.exe.
+#### If you get "SodiiumServer.exe &lt;Url1&gt; \[Url2\] ..." message after you run SodiumServer.exe, this means that you do not provide required command line parameters. Please have a look at the original "StartSodiumServer.bat" file content to learn usage of SodiumServer.exe. It is advised to run StartSodiumServer.bat file to run Sodium.
 
 ![](.gitbook/assets/image.png)
 
