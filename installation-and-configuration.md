@@ -105,17 +105,27 @@ Youtube playlist for installation \(2 videos\)
 
 ## Troubleshooting
 
-#### If SodiumServer.exe stop running, it may print out one of the well-known exit codes listed below;
+#### If `SodiumServer.exe` stop running, it may print out one of the well-known exit codes listed below;
 
-* **Exit code 101:** `SodiumShared.dll` nor found.
+* **Exit code 101:** `SodiumShared.dll` nor found or not accessible.
 
-  **Solution:** add `SodiumShared.dll` file path to environment path.
+  **Possible Solutions:**
+
+  * Add `SodiumShared.dll` file path to environment path.
+  * Check file permission settings.
 
 * **Exit code 102:** function is not found in `SodiumShared.dll`
 
   **Solution:** add `SodiumShared.dll` file path to environment path.
 
-* **Exit code 103:** MySql C client library couldn't initialized. May be `libmysql.dll` is not found.
+* **Exit code 103:** MySql C client library couldn't initialized. Possible reasons;
 
-  **Solution:** add `libmysql.dll` file path to environment path.
+  * `libmysql.dll` is not found or not accessible
+  * One of the functions required to run Sodium is not found in `libmysql.dll` file.
+  * MySql client library version is not compatible.
+
+  **Possible Solutions:** 
+
+  * Add `libmysql.dll` file path to environment path.
+  * Check file permission settings.
 
