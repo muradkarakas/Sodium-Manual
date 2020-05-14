@@ -10,7 +10,9 @@ description: Be sure to not miss out on new features and improvements!
 
 * A serious bug detected in `DBInt-PostgreSql.dll` file. Memory locations holding sql command parameter values were overwritten by random values. \(Postgresql library requires a dynamically sized pointer array to another pointer which holds actual paramater values of SQL statement. \(More detail: `paramValues` parameter of the [PQexecParams](https://www.postgresql.org/docs/current/libpq-exec.html) function\) 
 
+### **Improvements**
 
+* [Troubleshooting ](../installation-and-configuration.md#troubleshooting)section is added to the [Installation & Configuration page](../installation-and-configuration.md). 
 
 ## 2020-05-12 \(Version 0.0.7\)
 
