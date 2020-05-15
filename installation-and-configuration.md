@@ -145,3 +145,7 @@ Youtube playlist for installation \(2 videos\)
   * Add `libmysql.dll` file path to environment path.
   * Check file permission settings.
 
+* **Exit code 104:** SqlServer C client library couldn't initialized. 
+
+
+

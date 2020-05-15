@@ -4,7 +4,7 @@ description: Be sure to not miss out on new features and improvements!
 
 # Change Log
 
-## 2020-05-XX \(Version 0.0.8\) - Not Released Yet
+## 2020-05-XX \(Version 0.0.8\) - Not Released Yet, Development In Progress
 
 ### Bug fixes
 
@@ -13,6 +13,7 @@ description: Be sure to not miss out on new features and improvements!
 ### **Improvements**
 
 * [Troubleshooting ](../installation-and-configuration.md#troubleshooting)section is added to the [Installation & Configuration page](../installation-and-configuration.md). 
+* MS Sql Server support is added.
 
 ## 2020-05-12 \(Version 0.0.7\)
 
