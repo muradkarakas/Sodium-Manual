@@ -179,6 +179,7 @@
 
 * [Sodium Development Home Page](sodium-development/sodium-development-home-page.md)
 * [Getting Started](sodium-development/dev-getting-started/README.md)
+  * [Sodium Architecture](sodium-development/dev-getting-started/sodium-architecture.md)
   * [Source Code Download](sodium-development/dev-getting-started/source-code-download/README.md)
     * [Compiling C Projects](sodium-development/dev-getting-started/source-code-download/compiling-c-projects.md)
     * [Compiling NodeJs Project](sodium-development/dev-getting-started/source-code-download/compiling-nodejs-project.md)
