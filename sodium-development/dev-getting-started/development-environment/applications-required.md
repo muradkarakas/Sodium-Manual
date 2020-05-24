@@ -10,9 +10,8 @@
 
 In order to compile **all C projects**, you must download and install the applications listed below.
 
-* Oracle Database Express Edition \(XE\) 64Bit
-* PostgreSQL Database 64Bit
-* MySql Database Server 64Bit
-* MS Sql Server 64Bit
-* Redis Server 64Bit
+* Oracle Database Express Edition \(XE\) 64Bit \(required for DBInt-Oracle project\)
+* PostgreSQL Database 64Bit \(required for DBInt-PostgreSql project\)
+* MySql Database Server 64Bit \(required for DBInt-MySql project\)
+* MS Sql Server 64Bit \(required for DBInt-Sqlserver project\)
 
