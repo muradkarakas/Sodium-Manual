@@ -89,7 +89,9 @@ Youtube playlist for installation \(2 videos\)
       </td>
     </tr>
   </tbody>
-</table>{% hint style="info" %}
+</table>
+
+{% hint style="info" %}
 1. **For ORACLE:**  
    Check the path of the "oci.dll" file is exists in the system environment variable `PATH`. If not, please add.  
    Setting character encoding to UTF8 on the web server is required for Oracle. Otherwise, characters read from database cannot be seen as expected on the client browser. Please set character encoding part of the NLS\_LANG value to UTF8 on web server. \(Ex: TURKISH\_TURKEY.UTF8\).  
