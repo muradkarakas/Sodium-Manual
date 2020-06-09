@@ -1,17 +1,34 @@
 # Applications Required
 
-### IDE
+Development tools required to have  
 
-#### Visul Studio 2019 Community Edition
+* Development IDEs
+  * Visual Studio 2019 Community Edition
+  * Visual Studio Code
+* Msys2
+  * pacman -Syu
+  * pacman -S base-devel gcc vim cmake
+    * cmake --version
 
-#### Visual Studio Code
+      cmake version 3.17.3
 
-### Other Applications
+    * gcc --version
 
-In order to compile **all C projects**, you must download and install the applications listed below.
+      gcc \(GCC\) 9.3.0
 
-* Oracle Database Express Edition \(XE\) 64Bit \(required for DBInt-Oracle project\)
-* PostgreSQL Database 64Bit \(required for DBInt-PostgreSql project\)
-* MySql Database Server 64Bit \(required for DBInt-MySql project\)
-* MS Sql Server 64Bit \(required for DBInt-Sqlserver project\)
+    * 
+  * pacman -S tar
+  * download and extract llvm-9.0.1 source
+  * tar -xvf llvm-9.0.1.src.tar.xz
+  * mkdir llvmbuild
+  * cd llvmbuild
+  * cmake -DCMAKE\_BUILD\_TYPE=Release ../llvm-9.0.1.src
+  * cmake --build .
+* Databases
+  * Oracle
+  * Ms Sql Server
+  * Mysql
+  * Postgresql
+* 
+
 
