@@ -149,6 +149,7 @@ Youtube playlist for installation \(2 videos\)
 
 * **Exit code 104:** SqlServer C client library couldn't initialized. 
 * **Exit code 105:** SodiumApp.dll couldn't loaded.
+* **Exit code 106:** Function in SodiumApp.dll not found: ....
 
 
 
